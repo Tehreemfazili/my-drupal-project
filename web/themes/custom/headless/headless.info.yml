@@ -1,0 +1,5 @@
+name: Headless
+type: theme
+description: "Custom theme with React"
+core_version_requirement: ^8||^9
+base theme: stable9
