@@ -3,3 +3,17 @@ type: theme
 description: "Custom theme with React"
 core_version_requirement: ^8||^9
 base theme: stable9
+
+libraries:
+  - 'headless/global'
+  - 'headless/react'
+
+regions:
+  header: Header
+  content: Content
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  footer: Footer
+# sidebar must have '' around, and the key must be same as written otherwise it wont work
+
+logo: logo.jpeg

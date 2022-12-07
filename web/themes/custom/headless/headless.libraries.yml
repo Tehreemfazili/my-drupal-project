@@ -1,0 +1,16 @@
+global:
+  css:
+    theme:
+      dist/style.css: {}
+  js:
+      dist/js/main.js: {}
+    
+  # dependencies:
+  #   - headless/components
+
+
+react:
+  js:
+    https://unpkg.com/react@18.2.0/umd/react.production.min.js : { type: external, minified: true}
+    https://unpkg.com/react-dom@18.2.0/umd/react-dom.production.min.js:  { type: external, minified: true}
+      
