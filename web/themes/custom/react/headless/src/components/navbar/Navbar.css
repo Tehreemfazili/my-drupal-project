@@ -1,0 +1,17 @@
+.main-navbar {
+    float: right;
+    margin-top: 80px;
+    padding: 50px 130px;
+}
+
+.menu-items {
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu-items:last-child {
+    padding: 13px 56px;
+    border: 2px solid;
+    border-radius: 8px;
+}

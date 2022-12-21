@@ -1,0 +1,52 @@
+# Ignore binaries.
+/bin
+
+# Ignore non-custom parts of Drupal.
+/web/core
+!/web/libraries
+/web/libraries/dropzone
+/web/modules/contrib
+/web/profiles/contrib
+/web/themes/contrib
+/web/sites/default/files
+/private-files
+
+# Ignore Composer-managed dependencies.
+vendor/*/
+composer.phar
+
+# Ignore the console directory
+console
+
+# PHP Storm
+.idea
+
+# Behat screenshots
+tests/screenshots
+
+### Drupal8 ###
+
+# Ignore paths that may contain user-generated content
+/web/sites/*/files
+/web/sites/*/public
+/web/sites/*/private
+/web/sites/*/files-public
+/web/sites/*/files-private
+/storage
+
+#Ignore files in local docker env
+web/sites/docker.local/osborneclarke-d8.local/files
+
+# Ignore paths that may contain temporary files
+/sites/*/translations
+/sites/*/tmp
+/sites/*/cache
+
+# Ignore the certs folder
+certs/*.key
+
+# Ignore all sass cache
+.sass-cache
+
+#Ignore IDE generated folders
+/nbproject

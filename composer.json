@@ -20,6 +20,9 @@
         "drupal/core-project-message": "^9.4",
         "drupal/core-recommended": "^9.4",
         "drupal/devel": "^5.0",
+        "drupal/rest_menu_items": "^3.0",
+        "drupal/restui": "^1.21",
+        "drupal/simple_oauth": "^5.2",
         "drush/drush": "^11.3"
     },
     "conflict": {
@@ -34,7 +37,8 @@
             "drupal/core-project-message": true,
             "dealerdirect/phpcodesniffer-composer-installer": true
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "platform-check": false
     },
     "extra": {
         "drupal-scaffold": {
